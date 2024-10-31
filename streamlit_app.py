@@ -4,11 +4,18 @@ from openai import OpenAI
 # Show title and description.
 st.title("📄 BCA Submission Qns")
 
+# Create two columns
+col1, col2 = st.columns(2)
+
+# Place each checkbox in a separate column
+with col1:
+    show_popup1 = st.checkbox("API Key")
+with col2:
+    show_popup2 = st.checkbox("About Project")
 
 
-
-show_popup1 = st.checkbox("API Key")
-show_popup2 = st.checkbox("About Project")
+#show_popup1 = st.checkbox("API Key")
+#show_popup2 = st.checkbox("About Project")
 # Display "popup" content
 if show_popup1:
     st.code("Open AI API_Key is Set already", language="text")
