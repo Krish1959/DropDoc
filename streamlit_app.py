@@ -4,14 +4,17 @@ from openai import OpenAI
 # Show title and description.
 st.title("📄 BCA Submission Qns")
 
-ascii_string = "Open AI API_Key is Set already"
 
-# Button to trigger 
-show_popup = st.checkbox("API Key")
+
+
+show_popup1 = st.checkbox("API Key")
+show_popup2 = st.checkbox("About Project")
 # Display "popup" content
-if show_popup:
-    st.code(ascii_string, language="text")
-
+if show_popup1:
+    st.code("Open AI API_Key is Set already", language="text")
+# Display "popup" content
+if show_popup2:
+    st.code("This is the APP Developed as part of the AI Bootcamp by GovTech by \nUnni &\nWoon Wei", language="text")
 
     
 st.write("Upload a document below and ask a question about it– GPT will answer! ")
