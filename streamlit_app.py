@@ -14,7 +14,7 @@ if show_popup1:
     st.code("Open AI API_Key is Set already", language="text")
 # Display "popup" content
 if show_popup2:
-    st.code("This is the APP Developed\nas part of the AI Bootcamp\nGovTech by:\nUnni &\nWoon Wei\nBCA", language="text")
+    st.code("This is the APP Developed\nas part of the AI Bootcamp\nGovTech by:\nUnni & Woon Wei (BCA)", language="text")
 
     
 st.write("Upload a document below and ask a question about it– GPT will answer! ")
