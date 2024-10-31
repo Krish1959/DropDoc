@@ -6,8 +6,7 @@ st.title("📄 BCA Submission Qns")
 with st.modal("API_key_Status"):
     st.code("The OpenAI key is pre-set.", language="text")
 
-if st.markdown("[API_Key](#)", unsafe_allow_html=True):
-    st.toast("The OpenAI key is pre-set")
+
     
 st.write("Upload a document below and ask a question about it– GPT will answer! ")
 
