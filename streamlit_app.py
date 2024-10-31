@@ -4,7 +4,8 @@ from openai import OpenAI
 # Show title and description.
 st.title("📄 BCA Submission Qns")
 if st.button("API_Key"):
-   st.warning("The OpenAI key is pre-set")
+   st.toast("The OpenAI key is pre-set")
+   #st.warning("The OpenAI key is pre-set")
     
 st.write("Upload a document below and ask a question about it– GPT will answer! ")
 
