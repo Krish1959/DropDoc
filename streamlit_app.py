@@ -3,8 +3,9 @@ from openai import OpenAI
 
 # Show title and description.
 st.title("📄 BCA Submission Qns")
-with st.modal("API_key_Status"):
-    st.code("The OpenAI key is pre-set.", language="text")
+if st.button("API_Key"):
+    with st.modal("API_Key Status"):
+        st.code("API Key is  set already", language="text")
 
 
     
