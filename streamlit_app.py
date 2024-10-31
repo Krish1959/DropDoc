@@ -3,9 +3,13 @@ from openai import OpenAI
 
 # Show title and description.
 st.title("📄 BCA Submission Qns")
+
+ascii_string = "Open AI API_Key is Set already"
+
+# Button to trigger 
 if st.button("API_Key"):
     with st.modal("API_Key"):
-        st.code("API Key is  set already", language="text")
+        st.code(ascii_string, language="text")
 
 
     
