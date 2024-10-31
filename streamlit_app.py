@@ -7,9 +7,10 @@ st.title("📄 BCA Submission Qns")
 ascii_string = "Open AI API_Key is Set already"
 
 # Button to trigger 
-if st.button("API_Key"):
-    with st.modal("API_Key"):
-        st.code(ascii_string, language="text")
+show_popup = st.checkbox("API Key")
+# Display "popup" content
+if show_popup:
+    st.code(ascii_string, language="text")
 
 
     
