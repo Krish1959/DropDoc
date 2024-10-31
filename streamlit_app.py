@@ -11,7 +11,7 @@ col1, col2 = st.columns(2)
 with col1:
     show_popup1 = st.checkbox("API Key")
 with col2:
-    show_popup2 = st.checkbox("About Project")
+    show_popup2 = st.checkbox("About")
 
 
 #show_popup1 = st.checkbox("API Key")
