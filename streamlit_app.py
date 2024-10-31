@@ -5,7 +5,7 @@ from openai import OpenAI
 st.title("📄 BCA Submission Qns")
 
 # Create two columns
-col1, col2 = st.columns(2)
+col1, col2 = st.columns([1, 1])
 
 # Place each checkbox in a separate column
 with col1:
