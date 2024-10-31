@@ -3,9 +3,8 @@ from openai import OpenAI
 
 # Show title and description.
 st.title("📄 BCA Submission Qns")
-#if st.button("API_Key"):
-   #st.toast("The OpenAI key is pre-set")
-   #st.warning("The OpenAI key is pre-set")
+with st.modal("API_key_Status"):
+    st.code("The OpenAI key is pre-set.", language="text")
 
 if st.markdown("[API_Key](#)", unsafe_allow_html=True):
     st.toast("The OpenAI key is pre-set")
